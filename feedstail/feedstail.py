@@ -71,12 +71,12 @@ def loop():
 
         if number is not None and number <= len(entries):
             for entry in entries[number:]:
-                tail = [entry] + tail[:800]
+                tail = [entry] + tail[:config.cache]
             entries = entries[:number]
 
         for entry in entries:
             if isnew(entry):
-                tail = [entry] + tail[:800]
+                tail = [entry] + tail[:config.cache]
                 show(entry)
 
     cycle(config.number)

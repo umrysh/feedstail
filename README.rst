@@ -1,6 +1,6 @@
 Why I Have Forked The Project:
 
-For my purposes I need feedstail to maintain a much larger collection of polled items. I was finding that only after a hour I was starting to see articles I had seen previously. I have increased the cache from 100 items to 800. The original README is included below.
+For my purposes I need feedstail to maintain a much larger collection of polled items. I was finding that only after an hour I was starting to see articles I had seen previously. I have added a command line flag, -c, that will allow you to set the size of the cache. I have currently set mine to 800. The original README is included below.
 
 ~Dave Umrysh
 
